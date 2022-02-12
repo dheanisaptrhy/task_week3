@@ -1,0 +1,114 @@
+*{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+.home{
+    font-weight: 700;
+}
+
+.header-right .nav-link{
+    font-size: 15px ;
+    background-color: #4c4c98;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.header-right .nav-link:hover{
+    color: white;
+    background-color: #5c5cb8;
+}
+/* ----------------------------------------------- */
+/* main */
+
+.main{
+    height:93vh;
+    background-color:rgb(228, 228, 228);
+}
+.main .main-cont{
+    max-width: 800px;
+}
+
+.button-download .contact{
+    background-color: black;
+    color: white;
+    /* border-radius: 20px; */
+    border: none;
+    cursor: pointer;
+}
+.contact:hover{
+    background-color: #4c4c98;
+}
+.button-download .download{
+    border: none;
+    background-color: white;
+    padding:0;
+    cursor: pointer;
+    font-size: medium;
+}
+.download:hover{
+    color: #4c4c98;
+}
+
+.fas{
+    padding-left: 8px;
+}
+
+/* button bulet */
+.button{
+    max-width: 50px;
+    background-color: black;
+    /* border-radius: 50%; */
+    /* display: inline-block; */
+    padding: 10px 13px;
+    cursor: pointer;
+    margin-right: 8px;
+    color: white;
+}
+.button:hover{
+    /* background-color: rgb(87, 85, 85); */
+    background-color: #4c4c98;
+
+}
+.linkedin{
+    margin-left: -13px;
+}
+.facebook{
+    padding: 10px 15px;
+}
+/* --------------------------------------------------------- */
+/* second container */
+
+/* text description card */
+.cardbottom .text-desc{
+    text-overflow: ellipsis;
+    max-height: 50px;
+    overflow: hidden;
+}
+
+/* image */
+.pict-width{
+    max-height: 210px;
+}
+
+/* button */
+.btn-edit .btn-change{
+    width: 50%;
+    background-color: black;
+    color: white;
+}
+
+.btn-edit .btn-change:hover{
+    background-color: #4c4c98;
+    color: white;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    color: black;
+}

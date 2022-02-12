@@ -1,0 +1,36 @@
+*{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------ */
+/* Navbar */
+.addProject{
+    font-weight: 700;
+}
+
+.header-right .nav-link{
+    font-size: 15px ;
+    background-color: #4c4c98;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.header-right .nav-link:hover{
+    color: white;
+    background-color: #5c5cb8;
+}
+
+/* ================================================== */
+
+.main{
+    background-color:rgb(228, 228, 228);
+}
+
+/* ===================================================== */
+.detail-bottom p{
+    text-align: justify;
+}

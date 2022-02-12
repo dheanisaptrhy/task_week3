@@ -1,0 +1,64 @@
+*{
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* ------------------------------------------ */
+/* Navbar */
+.addProject{
+    font-weight: 700;
+}
+
+.header-right .nav-link{
+    font-size: 15px ;
+    background-color: #4c4c98;
+    color: white;
+    text-decoration: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}
+.header-right .nav-link:hover{
+    color: white;
+    background-color: #5c5cb8;
+}
+/* --------------------------------------------- */
+.main{
+    height:93vh;
+    background-color:rgb(228, 228, 228);
+}
+.main .main-cont{
+    max-width: 800px;
+}
+/* ============================================= */
+/* Checbox */
+
+.tech-cont label{
+    cursor: pointer;
+
+}
+input[type="checkbox"]{
+    display: none;
+}
+
+.checkbox_box{
+    width: 20px;
+    height: 20px;
+    border:1px solid rgba(153, 152, 152, 0.575);
+}
+
+.checkbox_box::after{
+    content: '\2714';
+    color: rgb(228, 228, 228);
+}
+
+input[type="checkbox"]:checked + .checkbox_box{
+    background: #4c4c98;
+    background-color: #4c4c98;
+}
+/* files */
+.file-cont .image_preview{
+    display: none;
+    max-width: 300px;
+}
